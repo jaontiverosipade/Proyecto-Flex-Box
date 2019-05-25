@@ -3,6 +3,10 @@ display: flex;
 flex-direction: row-reverse;
 flex-direction: column-reverse;
 flex-direction: column-reverse;
+margin-right: 5px;
+flex-wrap: wrap;
+flex-wrap: wrap-reverse;
+flex-wrap: nowrap;
 
 
 }
@@ -17,5 +21,9 @@ flex-direction: column-reverse;
     background-color: black;
     margin-right: 5px;
     color: white;
+    margin-right: 5px;
+    flex-wrap: nowrap;
+    flex-wrap: wrap-reverse;
+    flex-wrap: wrap
     
 }
