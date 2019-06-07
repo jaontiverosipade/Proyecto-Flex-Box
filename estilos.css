@@ -17,16 +17,20 @@ align-items: center;
 }
 
 #personaje{
-    order: 2
+    order: 2;
 }
 
 #ejemplos1{
-    order: 4
+    order: 4;
 
 }
 
 #ejemplo{ display:block; width: 50px;height: 50px;background: #000000;
 
+}
+
+#ejemplo7{
+    flex-grow: 1;
 }
 
 .ejemplos{
